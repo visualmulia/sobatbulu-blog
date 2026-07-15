@@ -1,0 +1,316 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+// Generate paths for all blog posts
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: { post },
+	}));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+// JSON-LD Article Schema
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "image": post.data.featured_image 
+    ? (post.data.featured_image.startsWith('http') ? post.data.featured_image : new URL(post.data.featured_image, Astro.url.origin).href)
+    : new URL('/favicon.svg', Astro.url.origin).href,
+  "datePublished": new Date(post.data.date).toISOString(),
+  "dateModified": new Date(post.data.date).toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": post.data.author
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SobatBulu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": new URL('/favicon.svg', Astro.url.origin).href
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": Astro.url.href
+  }
+};
+
+// Format date helper
+const formatDate = (dateStr: string | Date) => {
+	const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+	return new Date(dateStr).toLocaleDateString('id-ID', options);
+};
+---
+
+<Layout title={`${post.data.title} - SobatBulu`} description={post.data.description} image={post.data.featured_image}>
+	<!-- JSON-LD Article Schema -->
+	<script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
+
+	<article class="post">
+		<header class="post-header">
+			<div class="container post-header-container">
+				<a href="/" class="back-link">← Kembali ke Home</a>
+				<div class="post-meta">
+					<span>{formatDate(post.data.date)}</span>
+					<span>•</span>
+					<span>Ditulis oleh {post.data.author}</span>
+				</div>
+				<h1 class="post-title">{post.data.title}</h1>
+				<div class="post-tags">
+					{post.data.tags.map((tag) => (
+						<span class="tag">#{tag}</span>
+					))}
+				</div>
+			</div>
+		</header>
+
+		{post.data.featured_image && (
+			<div class="container post-image-container">
+				<img src={post.data.featured_image} alt={post.data.title} class="post-featured-image" />
+			</div>
+		)}
+
+		<div class="container post-body-container">
+			<div class="post-content">
+				<Content />
+			</div>
+			
+			<div class="post-share">
+				<span class="share-title">Bagikan artikel ini:</span>
+				<div class="share-buttons">
+					<a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(post.data.title)}%20${encodeURIComponent(Astro.url.href)}`} target="_blank" rel="noopener noreferrer" class="share-btn whatsapp" title="Bagikan ke WhatsApp">
+						WhatsApp
+					</a>
+					<a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(Astro.url.href)}`} target="_blank" rel="noopener noreferrer" class="share-btn facebook" title="Bagikan ke Facebook">
+						Facebook
+					</a>
+					<a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent(Astro.url.href)}`} target="_blank" rel="noopener noreferrer" class="share-btn twitter" title="Bagikan ke Twitter / X">
+						Twitter
+					</a>
+					<a href={`https://t.me/share/url?url=${encodeURIComponent(Astro.url.href)}&text=${encodeURIComponent(post.data.title)}`} target="_blank" rel="noopener noreferrer" class="share-btn telegram" title="Bagikan ke Telegram">
+						Telegram
+					</a>
+				</div>
+			</div>
+		</div>
+	</article>
+</Layout>
+
+<style>
+	.post {
+		padding: 4rem 0;
+	}
+
+	.post-header {
+		text-align: center;
+		padding-bottom: 3rem;
+		border-bottom: 1px solid var(--border-color);
+		margin-bottom: 3rem;
+	}
+
+	.post-header-container {
+		max-width: 800px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.back-link {
+		font-size: 0.9rem;
+		color: var(--accent);
+		font-weight: 500;
+		align-self: flex-start;
+	}
+
+	.back-link:hover {
+		color: var(--text-primary);
+	}
+
+	.post-meta {
+		display: flex;
+		gap: 0.5rem;
+		font-size: 0.9rem;
+		color: var(--text-secondary);
+		font-weight: 500;
+	}
+
+	.post-title {
+		font-size: 3rem;
+		line-height: 1.2;
+		letter-spacing: -1px;
+		font-weight: 800;
+	}
+
+	.post-tags {
+		display: flex;
+		justify-content: center;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.tag {
+		font-size: 0.85rem;
+		font-weight: 500;
+		color: var(--accent);
+		background-color: var(--accent-light);
+		padding: 0.2rem 0.6rem;
+		border-radius: 4px;
+	}
+
+	.post-image-container {
+		max-width: 800px;
+		margin: 0 auto 3rem auto;
+	}
+
+	.post-featured-image {
+		width: 100%;
+		max-height: 480px;
+		object-fit: cover;
+		border-radius: 8px;
+		border: 1px solid var(--border-color);
+		box-shadow: var(--shadow-md);
+	}
+
+	.post-body-container {
+		max-width: 800px;
+	}
+
+	/* Typography & Markdown styling */
+	.post-content {
+		font-family: var(--font-sans);
+		font-size: 1.15rem;
+		color: var(--text-primary);
+		line-height: 1.8;
+	}
+
+	.post-content :global(h2) {
+		font-size: 1.8rem;
+		font-weight: 700;
+		margin: 2.5rem 0 1rem 0;
+		letter-spacing: -0.5px;
+	}
+
+	.post-content :global(h3) {
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin: 2rem 0 1rem 0;
+	}
+
+	.post-content :global(p) {
+		margin-bottom: 1.5rem;
+	}
+
+	.post-content :global(ul), .post-content :global(ol) {
+		margin-bottom: 1.5rem;
+		padding-left: 2rem;
+	}
+
+	.post-content :global(li) {
+		margin-bottom: 0.5rem;
+	}
+
+	.post-content :global(blockquote) {
+		border-left: 4px solid var(--accent);
+		padding-left: 1.5rem;
+		margin: 2rem 0;
+		font-style: italic;
+		color: var(--text-secondary);
+	}
+
+	.post-content :global(pre) {
+		background-color: #FAF8F5;
+		border: 1px solid var(--border-color);
+		padding: 1.5rem;
+		border-radius: 8px;
+		overflow-x: auto;
+		margin: 2rem 0;
+	}
+
+	.post-content :global(code) {
+		font-family: monospace;
+		font-size: 0.95rem;
+		background-color: var(--accent-light);
+		color: var(--accent);
+		padding: 0.15rem 0.3rem;
+		border-radius: 4px;
+	}
+
+	.post-content :global(pre code) {
+		background-color: transparent;
+		color: inherit;
+		padding: 0;
+	}
+
+	.post-content :global(hr) {
+		border: none;
+		height: 1px;
+		background-color: var(--border-color);
+		margin: 3rem 0;
+	}
+
+	.post-share {
+		margin-top: 4rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--border-color);
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.share-title {
+		font-family: var(--font-display);
+		font-size: 0.95rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		color: var(--text-secondary);
+	}
+
+	.share-buttons {
+		display: flex;
+		gap: 0.75rem;
+		flex-wrap: wrap;
+	}
+
+	.share-btn {
+		font-size: 0.9rem;
+		font-weight: 600;
+		padding: 0.5rem 1rem;
+		border-radius: 6px;
+		color: #FFFFFF;
+		transition: var(--transition);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.share-btn.whatsapp { background-color: #25D366; }
+	.share-btn.whatsapp:hover { background-color: #128C7E; }
+
+	.share-btn.facebook { background-color: #1877F2; }
+	.share-btn.facebook:hover { background-color: #166FE5; }
+
+	.share-btn.twitter { background-color: #1DA1F2; }
+	.share-btn.twitter:hover { background-color: #1A91DA; }
+
+	.share-btn.telegram { background-color: #0088CC; }
+	.share-btn.telegram:hover { background-color: #0077B5; }
+
+	@media (max-width: 768px) {
+		.post-title {
+			font-size: 2.25rem;
+		}
+		.post-content {
+			font-size: 1.05rem;
+		}
+	}
+</style>

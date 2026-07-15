@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.sobatbulu.web.id/sitemap-index.xml

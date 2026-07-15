@@ -1,0 +1,10 @@
+# SobatBulu
+Panduan praktis perawatan hewan peliharaan, tips kesehatan kucing dan anjing, ulasan pakan bernutrisi, dan info dunia satwa.
+
+## Core Pages
+- [Beranda](https://www.sobatbulu.web.id/) - Halaman utama sahabat hewan.
+- [Tentang Kami](https://www.sobatbulu.web.id/#about) - Informasi tentang redaksi SobatBulu.
+- [Kontak](https://www.sobatbulu.web.id/contact) - Hubungi kami.
+- [Disclaimer](https://www.sobatbulu.web.id/disclaimer) - Sangkalan kesehatan medis hewan.
+- [Privacy Policy](https://www.sobatbulu.web.id/privacy) - Kebijakan privasi.
+- [Terms of Service](https://www.sobatbulu.web.id/terms) - Syarat & ketentuan.
