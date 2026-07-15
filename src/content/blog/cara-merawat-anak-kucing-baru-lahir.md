@@ -1,12 +1,14 @@
 ---
 title: "Cara Merawat Anak Kucing Baru Lahir: Panduan Lengkap 0-8 Minggu"
-date: "2026-07-15"
-author: "Admin"
-featured_image: ""
+date: 2026-07-15
+author: Admin SoBul
+featured_image: /images/uploads/01a.png
+description: Panduan lengkap cara merawat anak kucing baru lahir dari usia 0-8
+  minggu. Tips menjaga kehangatan, memberi susu, memijat, hingga perawatan
+  kesehatan kitten.
 tags:
-  - "cara merawat anak kucing baru lahir"
-  - "merawat kitten"
-description: "Panduan lengkap cara merawat anak kucing baru lahir dari usia 0-8 minggu. Tips menjaga kehangatan, memberi susu, memijat, hingga perawatan kesehatan kitten."
+  - cara merawat anak kucing baru lahir
+  - merawat kitten
 ---
 
 Merawat anak kucing baru lahir membutuhkan perhatian ekstra karena mereka sangat rentan. Kunci utama adalah menjaga kehangatan, memberikan nutrisi yang tepat, dan memastikan kebersihan. Jika induk kucing ada, biarkan ia merawat anaknya secara alami. Namun, jika anak kucing yatim atau ditolak induknya, Anda harus menjadi pengganti induk. Berikut panduan lengkap dari usia 0 hingga 8 minggu.
