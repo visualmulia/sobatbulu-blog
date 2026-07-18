@@ -1,12 +1,15 @@
 ---
-title: "Panduan Lengkap Cara Merawat Anak Kucing (Kittens) Tanpa Induk Agar Sehat dan Kuat"
-date: "2026-07-18"
-author: "Admin"
-featured_image: ""
+title: Panduan Lengkap Cara Merawat Anak Kucing (Kittens) Tanpa Induk Agar Sehat
+  dan Kuat
+date: 2026-07-18
+author: Admin SoBul
+featured_image: /images/uploads/02-a.png
+description: Pelajari cara merawat anak kucing kittens tanpa induk agar sehat,
+  mulai dari menjaga suhu tubuh, memberikan susu formula KMR, hingga stimulasi
+  buang air. Panduan lengkap dari para ahli.
 tags:
-  - "merawat anak kucing tanpa induk"
-  - "cara merawat kitten"
-description: "Pelajari cara merawat anak kucing kittens tanpa induk agar sehat, mulai dari menjaga suhu tubuh, memberikan susu formula KMR, hingga stimulasi buang air. Panduan lengkap dari para ahli."
+  - merawat anak kucing tanpa induk
+  - cara merawat kitten
 ---
 
 Merawat anak kucing yang baru lahir tanpa induk memang menantang, tetapi bukan hal yang mustahil. Kunci keberhasilan terletak pada pemenuhan kebutuhan dasar: kehangatan, nutrisi yang tepat, stimulasi buang air, dan kebersihan. Dengan perawatan yang benar, anak kucing bisa tumbuh sehat dan kuat. Berikut panduan lengkapnya.
