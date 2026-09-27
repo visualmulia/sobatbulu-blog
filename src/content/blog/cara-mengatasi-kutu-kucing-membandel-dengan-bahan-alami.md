@@ -1,12 +1,15 @@
 ---
-title: "Cara Mengatasi Kutu Kucing Membandel dengan Bahan Alami: Solusi Ampuh dan Aman"
-date: "2026-09-26"
-author: "Admin"
-featured_image: ""
+title: "Cara Mengatasi Kutu Kucing Membandel dengan Bahan Alami: Solusi Ampuh
+  dan Aman"
+date: 2026-09-26
+author: Admin
+featured_image: /images/uploads/teen_petting_cat_with_ingredients_20260927231535-1-.jpg
+description: Kutu kucing membandel? Atasi dengan bahan alami seperti cuka apel,
+  lemon, dan minyak kelapa. Simak panduan lengkap dan efektif untuk kucing sehat
+  bebas kutu.
 tags:
-  - "kutu kucing"
-  - "bahan alami"
-description: "Kutu kucing membandel? Atasi dengan bahan alami seperti cuka apel, lemon, dan minyak kelapa. Simak panduan lengkap dan efektif untuk kucing sehat bebas kutu."
+  - kutu kucing
+  - bahan alami
 ---
 
 ## Pendahuluan
