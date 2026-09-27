@@ -1,12 +1,15 @@
 ---
-title: "Panduan Melatih Anjing Peliharaan agar Buang Air Teratur: Tips Efektif untuk Pemula"
-date: "2026-08-08"
-author: "Admin"
-featured_image: ""
+title: "Panduan Melatih Anjing Peliharaan agar Buang Air Teratur: Tips Efektif
+  untuk Pemula"
+date: 2026-08-08
+author: Admin
+featured_image: /images/uploads/teenager_interacting_with_puppy_20260927231914-1-.jpg
+description: Pelajari cara melatih anjing buang air teratur dengan metode
+  positif, jadwal konsisten, dan teknik crate training. Panduan lengkap untuk
+  pemula.
 tags:
-  - "melatih anjing"
-  - "buang air teratur"
-description: "Pelajari cara melatih anjing buang air teratur dengan metode positif, jadwal konsisten, dan teknik crate training. Panduan lengkap untuk pemula."
+  - melatih anjing
+  - buang air teratur
 ---
 
 Melatih anjing peliharaan agar buang air teratur adalah salah satu aspek terpenting dalam kepemilikan anjing yang bertanggung jawab. Dengan kesabaran dan konsistensi, Anda dapat mengajarkan anjing untuk buang air di tempat yang tepat, baik di luar rumah maupun di area yang telah disediakan. Artikel ini akan membahas langkah-langkah praktis, metode yang terbukti efektif, serta tips mengatasi tantangan umum. Mari kita mulai!
