@@ -35,10 +35,10 @@ Pemberian pakan yang tidak sesuai, seperti terlalu banyak sayuran berair atau pe
 ## Cara Merawat Kelinci Agar Tidak Mudah Stres
 
 ### 1. Sediakan Kandang yang Nyaman dan Aman
-Kandang harus cukup luas, minimal 4 kali ukuran tubuh kelinci. Letakkan di tempat yang tenang, jauh dari kebisingan, dan memiliki ventilasi baik. Gunakan alas kandang yang lembut dan mudah dibersihkan. Pastikan kandang bebas dari predator seperti anjing atau kucing.
+Kandang harus cukup luas, minimal 4 kali ukuran tubuh kelinci. Letakkan di tempat yang tenang, jauh dari kebisingan, dan memiliki ventilasi baik. Gunakan alas kandang yang lembut dan mudah dibersihkan. Pastikan kandang bebas dari predator seperti anjing atau kucing. Jika Anda tertarik merawat satwa pengerat berukuran lebih mungil, simak panduan [cara merawat hamster peliharaan untuk anak-anak](/blog/cara-merawat-hamster-peliharaan-untuk-anak-anak).
 
 ### 2. Jaga Kebersihan Kandang Secara Rutin
-Bersihkan kandang minimal 2–3 kali seminggu. Ganti alas kandang setiap hari jika perlu. Kebersihan kandang mencegah pertumbuhan bakteri dan parasit yang dapat membuat kelinci stres.
+Bersihkan kandang minimal 2–3 kali seminggu. Ganti alas kandang setiap hari jika perlu. Kebersihan kandang mencegah pertumbuhan bakteri dan parasit yang dapat membuat kelinci stres. Metode sanitasi kandang alami juga bisa Anda pelajari di [cara merawat kebersihan kandang burung peliharaan](/blog/cara-merawat-kebersihan-kandang-burung-peliharaan).
 
 ### 3. Berikan Nutrisi Seimbang
 Pakan utama kelinci adalah rumput hay (jerami) yang kaya serat. Tambahkan pelet khusus kelinci dan sayuran segar seperti wortel, selada, atau brokoli dalam porsi kecil. Hindari memberi makanan manusia yang mengandung gula atau garam. Sediakan air minum bersih setiap saat.

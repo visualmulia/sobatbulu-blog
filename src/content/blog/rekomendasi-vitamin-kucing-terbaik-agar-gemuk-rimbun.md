@@ -13,7 +13,7 @@ description: "Ingin kucing gemuk dan bulu rimbun? Simak rekomendasi vitamin kuci
 
 **Vitamin kucing terbaik agar gemuk rimbun adalah suplemen yang mengandung kombinasi vitamin A, B kompleks, C, E, serta asam lemak omega-3 dan omega-6.** Nutrisi ini bekerja sinergis untuk meningkatkan nafsu makan, memperbaiki penyerapan nutrisi, dan menyehatkan kulit serta folikel bulu. Tanpa asupan vitamin yang cukup, kucing bisa sulit gemuk meskipun makan banyak, dan bulunya cenderung kusam atau rontok.
 
-Kucing yang kurus dan berbulu tipis sering kali mengalami defisiensi nutrisi mikro. Oleh karena itu, pemberian vitamin tambahan menjadi solusi praktis, terutama jika makanan sehari-hari belum mencukupi kebutuhan. Namun, tidak semua vitamin cocok untuk semua kucing. Anda perlu memilih produk yang tepat sesuai kondisi dan kebutuhan hewan peliharaan.
+Kucing yang kurus dan berbulu tipis sering kali mengalami defisiensi nutrisi mikro. Namun, jika anabul tetap kurus meski nafsu makannya tinggi, waspadai adanya parasit usus sebagaimana dipaparkan dalam [gejala dan ciri kucing cacingan parah](/blog/gejala-dan-ciri-kucing-sedang-sakit-cacingan-parah). Oleh karena itu, pemberian vitamin tambahan menjadi solusi praktis, terutama jika makanan sehari-hari belum mencukupi kebutuhan. Namun, tidak semua vitamin cocok untuk semua kucing. Anda perlu memilih produk yang tepat sesuai kondisi dan kebutuhan hewan peliharaan.
 
 ## Kandungan Vitamin yang Wajib Ada untuk Kucing Gemuk dan Bulu Lebat
 
@@ -75,7 +75,7 @@ Kucing yang kurus dan berbulu tipis sering kali mengalami defisiensi nutrisi mik
 - **Campur dengan makanan favorit**: Sebagian besar vitamin bisa dicampurkan ke wet food atau air minum.
 - **Beri waktu yang konsisten**: Berikan pada jam yang sama setiap hari agar menjadi kebiasaan.
 - **Amati respon kucing**: Jika terjadi muntah atau diare, hentikan dan konsultasikan ke dokter hewan.
-- **Kombinasikan dengan makanan bergizi**: Vitamin hanyalah suplemen; makanan utama harus tetap berkualitas tinggi.
+- **Kombinasikan dengan makanan bergizi**: Vitamin hanyalah suplemen; makanan utama harus tetap berkualitas tinggi. Anda bisa memilih varian pakan harian pada [rekomendasi makanan kucing murah berkualitas tinggi](/blog/rekomendasi-makanan-kucing-murah-berkualitas-tinggi).
 
 ## Kesimpulan
 

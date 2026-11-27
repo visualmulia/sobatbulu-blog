@@ -9,7 +9,7 @@ tags:
 description: "Temukan rekomendasi jenis ikan hias air tawar yang mudah dipelihara untuk pemula. Panduan lengkap dengan perbandingan dan tips perawatan."
 ---
 
-Memelihara ikan hias air tawar bisa menjadi hobi yang menyenangkan, terutama bagi pemula. Namun, tidak semua jenis ikan cocok untuk pemula karena beberapa di antaranya memerlukan perawatan khusus. Berikut adalah rekomendasi jenis ikan hias air tawar yang mudah dipelihara dan cocok untuk Anda yang baru memulai.
+Memelihara ikan hias air tawar bisa menjadi hobi yang menyenangkan, terutama bagi pemula. Namun, tidak semua jenis ikan cocok untuk pemula karena beberapa di antaranya memerlukan perawatan khusus. Selain ikan hias, pilihan satwa mungil yang ramah keluarga lainnya adalah hamster, seperti yang dibahas pada panduan [cara merawat hamster peliharaan untuk anak-anak](/blog/cara-merawat-hamster-peliharaan-untuk-anak-anak). Berikut adalah rekomendasi jenis ikan hias air tawar yang mudah dipelihara dan cocok untuk Anda yang baru memulai.
 
 ## Mengapa Memilih Ikan Hias Air Tawar yang Mudah Dipelihara?
 
@@ -113,7 +113,7 @@ Zebra danio adalah ikan kecil yang aktif dan tahan banting. Mereka dapat hidup d
 Agar ikan hias air tawar Anda tetap sehat dan bahagia, ikuti tips berikut:
 
 - **Siklus Nitrogen:** Pastikan akuarium sudah melalui siklus nitrogen sebelum menambahkan ikan. Ini penting untuk membangun bakteri baik yang mengurai limbah.
-- **Kualitas Air:** Lakukan penggantian air secara rutin (10-20% per minggu) dan gunakan filter yang sesuai.
+- **Kualitas Air:** Lakukan penggantian air secara rutin (10-20% per minggu) dan gunakan filter yang sesuai. Prinsip menjaga sanitasi habitat ini sama pentingnya seperti pada [kebersihan kandang burung peliharaan](/blog/cara-merawat-kebersihan-kandang-burung-peliharaan) agar hewan tidak rentan tertular kuman.
 - **Pakan:** Berikan pakan berkualitas sesuai jenis ikan. Jangan memberi makan berlebihan karena dapat mencemari air.
 - **Suhu Stabil:** Gunakan heater jika diperlukan untuk menjaga suhu stabil, terutama untuk ikan tropis.
 - **Hindari Overstocking:** Jangan menempatkan terlalu banyak ikan dalam satu akuarium untuk mengurangi stres dan penyakit.

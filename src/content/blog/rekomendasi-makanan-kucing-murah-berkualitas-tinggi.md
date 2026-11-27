@@ -135,7 +135,7 @@ Untuk anak kucing, Felibite Mother and Kitten adalah pilihan yang baik. Diformul
 
 - **Beli dalam kemasan besar**: Kemasan 5 kg atau 10 kg biasanya lebih murah per kilogramnya.
 - **Manfaatkan promo**: Pantau toko online atau supermarket untuk diskon.
-- **Campur dengan makanan basah**: Sedikit makanan basah bisa meningkatkan selera makan dan memberikan variasi nutrisi.
+- **Campur dengan makanan basah**: Sedikit makanan basah bisa meningkatkan selera makan dan memberikan variasi nutrisi. Anda juga bisa melengkapinya dengan [rekomendasi vitamin kucing terbaik agar gemuk rimbun](/blog/rekomendasi-vitamin-kucing-terbaik-agar-gemuk-rimbun) untuk menjaga kilau bulu anabul.
 - **Perhatikan porsi**: Berikan sesuai kebutuhan kucing, jangan berlebihan.
 - **Simpan dengan benar**: Gunakan wadah kedap udara agar makanan tetap segar dan tidak cepat basi.
 
@@ -163,4 +163,4 @@ Biasanya mengandung banyak biji-bijian sebagai pengisi, protein rendah, dan bany
 
 **Bolehkah memberikan makanan kucing murah untuk anak kucing?**
 
-Untuk anak kucing, pilih produk yang khusus untuk kitten karena kebutuhan nutrisinya berbeda, seperti Felibite Mother and Kitten. Makanan kucing dewasa tidak cukup mengandung protein dan kalsium yang dibutuhkan untuk pertumbuhan.
+Untuk anak kucing, pilih produk yang khusus untuk kitten karena kebutuhan nutrisinya berbeda, seperti Felibite Mother and Kitten. Makanan kucing dewasa tidak cukup mengandung protein dan kalsium yang dibutuhkan untuk pertumbuhan. Anda dapat mengikuti panduan tahapan pakan di artikel [cara merawat anak kucing baru lahir](/blog/cara-merawat-anak-kucing-baru-lahir).

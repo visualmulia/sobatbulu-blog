@@ -5,15 +5,25 @@ interface Props {
 	title: string;
 	description?: string;
 	image?: string;
+	type?: 'website' | 'article';
 }
 
-const { title, description = "Eksplorasi kecerdasan buatan, tren teknologi masa depan, dan panduan praktis pemanfaatan AI untuk melipatgandakan produktivitas.", image } = Astro.props;
+const { 
+	title, 
+	description = "Panduan praktis perawatan hewan peliharaan, tips kesehatan kucing dan anjing, nutrisi pakan berkualitas, dan panduan merawat anabul tercinta.", 
+	image,
+	type = 'website'
+} = Astro.props;
 
 // Determine absolute canonical URL and image URL for metadata
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).href;
-const ogImage = image 
-	? (image.startsWith('http') ? image : new URL(image, Astro.url.origin).href)
-	: new URL('/favicon.svg', Astro.url.origin).href;
+
+// Default social share card image if specific featured_image is empty
+const defaultOgImage = '/images/uploads/teen_petting_cat_with_ingredients_20260927231535-1-.jpg';
+const resolvedImage = image && image.trim() !== '' ? image : defaultOgImage;
+const ogImage = resolvedImage.startsWith('http') 
+	? resolvedImage 
+	: new URL(resolvedImage, Astro.site ?? Astro.url.origin).href;
 ---
 
 <!doctype html>
@@ -29,19 +39,25 @@ const ogImage = image
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonicalURL} />
 		
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
+		<!-- Open Graph / Facebook / WhatsApp -->
+		<meta property="og:type" content={type} />
+		<meta property="og:site_name" content="SobatBulu" />
 		<meta property="og:url" content={canonicalURL} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content={ogImage} />
+		<meta property="og:image:alt" content={title} />
 
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content={canonicalURL} />
-		<meta property="twitter:title" content={title} />
-		<meta property="twitter:description" content={description} />
-		<meta property="twitter:image" content={ogImage} />
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content={canonicalURL} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		<!-- Google AdSense Verification & Auto Ads -->
+		<meta name="google-adsense-account" content="ca-pub-6193006802253158" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6193006802253158" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<!-- Header Navbar -->
@@ -52,6 +68,7 @@ const ogImage = image
 				</a>
 				<nav class="nav">
 					<a href="/" class="nav-link">Home</a>
+					<a href="/sitemap" class="nav-link">Daftar Isi</a>
 					<a href="/about" class="nav-link">Tentang</a>
 					<a href="/search" class="nav-link search-nav-btn" title="Cari Artikel">
 						<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -71,12 +88,13 @@ const ogImage = image
 			<div class="container footer-container">
 				<div class="footer-brand">
 					<a href="/" class="logo">Sobat<span>Bulu</span>.</a>
-					<p class="footer-desc">Panduan praktis perawatan hewan peliharaan, tips kesehatan kucing dan anjing, ulasan pakan bernutrisi, dan info dunia satwa.</p>
+					<p class="footer-desc">Panduan praktis perawatan hewan peliharaan, tips kesehatan kucing dan anjing, ulasan pakan bernutrisi, dan panduan merawat anabul tercinta.</p>
 				</div>
 				<div class="footer-divider"></div>
 				<div class="footer-bottom">
 					<p>&copy; {new Date().getFullYear()} SobatBulu. All rights reserved.</p>
 					<div class="footer-links">
+						<a href="/sitemap" class="footer-link">Sitemap & Kategori</a>
 						<a href="/about" class="footer-link">Tentang Kami</a>
 						<a href="/privacy" class="footer-link">Privacy Policy</a>
 						<a href="/terms" class="footer-link">Terms of Service</a>

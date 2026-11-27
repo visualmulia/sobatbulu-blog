@@ -11,7 +11,7 @@ description: "Pelajari cara merawat kebersihan kandang burung peliharaan dengan 
 
 ## Mengapa Kebersihan Kandang Burung Itu Penting?
 
-Menjaga kebersihan kandang burung peliharaan adalah fondasi utama untuk kesehatan dan kesejahteraan burung Anda. Kandang yang kotor menjadi sarang bakteri, virus, dan parasit yang dapat menyebabkan penyakit serius, stres, bahkan kematian. Dengan rutinitas pembersihan yang tepat, Anda tidak hanya melindungi burung dari penyakit, tetapi juga memperpanjang umurnya dan menjaga kicauannya tetap merdu. Artikel ini akan memandu Anda melalui langkah-langkah praktis, mulai dari persiapan alat hingga jadwal perawatan yang efektif.
+Menjaga kebersihan kandang burung peliharaan adalah fondasi utama untuk kesehatan dan kesejahteraan burung Anda. Kandang yang kotor menjadi sarang bakteri, virus, dan parasit yang dapat menyebabkan penyakit serius, stres, bahkan kematian. Hal serupa juga berlaku pada satwa peliharaan lain seperti yang diuraikan dalam [cara merawat kelinci peliharaan agar tidak mudah stres](/blog/cara-merawat-kelinci-peliharaan-agar-tidak-mudah-stres). Dengan rutinitas pembersihan yang tepat, Anda tidak hanya melindungi burung dari penyakit, tetapi juga memperpanjang umurnya dan menjaga kicauannya tetap merdu. Artikel ini akan memandu Anda melalui langkah-langkah praktis, mulai dari persiapan alat hingga jadwal perawatan yang efektif.
 
 ## Alat dan Bahan yang Dibutuhkan untuk Membersihkan Kandang
 
@@ -77,6 +77,7 @@ Selalu uji bahan alami pada area kecil terlebih dahulu untuk memastikan tidak me
 - **Jaga sirkulasi udara**: Pastikan kandang tidak lembap untuk mencegah pertumbuhan jamur.
 - **Rutin memeriksa kesehatan burung**: Jika burung tampak lesu atau kotorannya abnormal, segera konsultasikan ke dokter hewan.
 - **Bersihkan kandang setelah burung mandi**: Air mandi yang tersisa dapat membuat kandang lembap.
+- **Jelajahi hobi fauna lainnya**: Bila Anda menyukai pemandangan hewan yang menenangkan di dalam rumah, simak juga [rekomendasi jenis ikan hias air tawar yang mudah dipelihara](/blog/rekomendasi-jenis-ikan-hias-air-tawar-mudah-dipelihara).
 
 ## Kesimpulan
 

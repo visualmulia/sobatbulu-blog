@@ -7,12 +7,28 @@ export async function getStaticPaths() {
 	const posts = await getCollection('blog');
 	return posts.map((post) => ({
 		params: { slug: post.slug },
-		props: { post },
+		props: { post, allPosts: posts },
 	}));
 }
 
-const { post } = Astro.props;
+const { post, allPosts = [] } = Astro.props;
 const { Content } = await post.render();
+
+// Calculate related articles (max 3 posts excluding current post)
+const availablePosts = allPosts.length > 0 ? allPosts : await getCollection('blog');
+const relatedByTag = availablePosts
+	.filter((p) => p.slug !== post.slug)
+	.filter((p) => {
+		const currentTags = post.data.tags || [];
+		const postTags = p.data.tags || [];
+		return currentTags.some((t: string) => postTags.includes(t));
+	});
+
+const fallbackPosts = availablePosts
+	.filter((p) => p.slug !== post.slug && !relatedByTag.some((r) => r.slug === p.slug))
+	.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const relatedPosts = [...relatedByTag, ...fallbackPosts].slice(0, 3);
 
 // JSON-LD Article Schema
 const schema = {
@@ -50,7 +66,7 @@ const formatDate = (dateStr: string | Date) => {
 };
 ---
 
-<Layout title={`${post.data.title} - SobatBulu`} description={post.data.description} image={post.data.featured_image}>
+<Layout title={`${post.data.title} - SobatBulu`} description={post.data.description} image={post.data.featured_image} type="article">
 	<!-- JSON-LD Article Schema -->
 	<script type="application/ld+json" is:inline set:html={JSON.stringify(schema)} />
 
@@ -82,6 +98,21 @@ const formatDate = (dateStr: string | Date) => {
 			<div class="post-content">
 				<Content />
 			</div>
+
+			<!-- Box Profil Penulis (E-E-A-T AdSense Compliance) -->
+			<div class="author-box">
+				<div class="author-avatar">
+					<span>SB</span>
+				</div>
+				<div class="author-info">
+					<div class="author-badge">Dewan Redaksi SobatBulu</div>
+					<h3 class="author-name">Tim Redaksi SobatBulu</h3>
+					<p class="author-bio">
+						Pencinta hewan peliharaan, praktisi nutrisi anabul rumahan, dan pegiat kesejahteraan hewan. Berdedikasi menyajikan panduan perawatan harian yang aman, penuh kasih sayang, dan berbasis kebiasaan satwa.
+					</p>
+					<a href="/about" class="author-link">Pelajari Visi & Standar Editorial Kami &rarr;</a>
+				</div>
+			</div>
 			
 			<div class="post-share">
 				<span class="share-title">Bagikan artikel ini:</span>
@@ -100,6 +131,29 @@ const formatDate = (dateStr: string | Date) => {
 					</a>
 				</div>
 			</div>
+
+			{relatedPosts.length > 0 && (
+				<section class="related-section">
+					<h2 class="related-title">Rekomendasi Panduan & Artikel Terkait</h2>
+					<div class="related-grid">
+						{relatedPosts.map((r) => (
+							<a href={`/blog/${r.slug}`} class="related-card">
+								{r.data.featured_image && (
+									<div class="related-img-box">
+										<img src={r.data.featured_image} alt={r.data.title} loading="lazy" />
+									</div>
+								)}
+								<div class="related-body">
+									<span class="related-date">{formatDate(r.data.date)}</span>
+									<h4 class="related-heading">{r.data.title}</h4>
+									<p class="related-desc">{r.data.description.slice(0, 95)}...</p>
+									<span class="related-read-more">Baca Panduan &rarr;</span>
+								</div>
+							</a>
+						))}
+					</div>
+				</section>
+			)}
 		</div>
 	</article>
 </Layout>
@@ -127,12 +181,12 @@ const formatDate = (dateStr: string | Date) => {
 	.back-link {
 		font-size: 0.9rem;
 		color: var(--accent);
-		font-weight: 500;
+		font-weight: 600;
 		align-self: flex-start;
 	}
 
 	.back-link:hover {
-		color: var(--text-primary);
+		color: var(--accent-hover);
 	}
 
 	.post-meta {
@@ -144,9 +198,9 @@ const formatDate = (dateStr: string | Date) => {
 	}
 
 	.post-title {
-		font-size: 3rem;
-		line-height: 1.2;
-		letter-spacing: -1px;
+		font-size: 2.75rem;
+		line-height: 1.25;
+		letter-spacing: -0.5px;
 		font-weight: 800;
 	}
 
@@ -159,11 +213,11 @@ const formatDate = (dateStr: string | Date) => {
 
 	.tag {
 		font-size: 0.85rem;
-		font-weight: 500;
-		color: var(--accent);
+		font-weight: 600;
+		color: var(--accent-hover);
 		background-color: var(--accent-light);
-		padding: 0.2rem 0.6rem;
-		border-radius: 4px;
+		padding: 0.25rem 0.75rem;
+		border-radius: 9999px;
 	}
 
 	.post-image-container {
@@ -175,7 +229,7 @@ const formatDate = (dateStr: string | Date) => {
 		width: 100%;
 		max-height: 480px;
 		object-fit: cover;
-		border-radius: 8px;
+		border-radius: 16px;
 		border: 1px solid var(--border-color);
 		box-shadow: var(--shadow-md);
 	}
@@ -187,21 +241,36 @@ const formatDate = (dateStr: string | Date) => {
 	/* Typography & Markdown styling */
 	.post-content {
 		font-family: var(--font-sans);
-		font-size: 1.15rem;
+		font-size: 1.12rem;
 		color: var(--text-primary);
-		line-height: 1.8;
+		line-height: 1.85;
+	}
+
+	/* Contextual Internal Links styling for High Click-Through & Readability */
+	.post-content :global(a) {
+		color: var(--accent);
+		font-weight: 600;
+		text-decoration: underline;
+		text-decoration-color: var(--accent);
+		text-underline-offset: 3px;
+		transition: var(--transition);
+	}
+
+	.post-content :global(a:hover) {
+		color: var(--accent-coral);
+		text-decoration-color: var(--accent-coral);
 	}
 
 	.post-content :global(h2) {
-		font-size: 1.8rem;
+		font-size: 1.75rem;
 		font-weight: 700;
 		margin: 2.5rem 0 1rem 0;
 		letter-spacing: -0.5px;
 	}
 
 	.post-content :global(h3) {
-		font-size: 1.4rem;
-		font-weight: 600;
+		font-size: 1.35rem;
+		font-weight: 700;
 		margin: 2rem 0 1rem 0;
 	}
 
@@ -224,13 +293,16 @@ const formatDate = (dateStr: string | Date) => {
 		margin: 2rem 0;
 		font-style: italic;
 		color: var(--text-secondary);
+		background-color: var(--accent-light);
+		padding: 1rem 1.5rem;
+		border-radius: 0 8px 8px 0;
 	}
 
 	.post-content :global(pre) {
-		background-color: #FAF8F5;
+		background-color: #F8F5F0;
 		border: 1px solid var(--border-color);
 		padding: 1.5rem;
-		border-radius: 8px;
+		border-radius: 12px;
 		overflow-x: auto;
 		margin: 2rem 0;
 	}
@@ -239,8 +311,8 @@ const formatDate = (dateStr: string | Date) => {
 		font-family: monospace;
 		font-size: 0.95rem;
 		background-color: var(--accent-light);
-		color: var(--accent);
-		padding: 0.15rem 0.3rem;
+		color: var(--accent-hover);
+		padding: 0.15rem 0.35rem;
 		border-radius: 4px;
 	}
 
@@ -265,7 +337,7 @@ const formatDate = (dateStr: string | Date) => {
 		border-collapse: collapse;
 		margin: 2.5rem 0;
 		border: 1px solid var(--border-color);
-		border-radius: 8px;
+		border-radius: 12px;
 		background-color: var(--card-bg);
 	}
 
@@ -294,8 +366,81 @@ const formatDate = (dateStr: string | Date) => {
 		background-color: rgba(0, 0, 0, 0.015);
 	}
 
+	/* Author Bio Box */
+	.author-box {
+		margin-top: 3.5rem;
+		padding: 2rem;
+		background-color: var(--card-bg);
+		border: 1px solid var(--border-color);
+		border-radius: 16px;
+		display: flex;
+		gap: 1.5rem;
+		align-items: flex-start;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.author-avatar {
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		background: linear-gradient(135deg, var(--accent), var(--accent-coral));
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: var(--font-display);
+		font-size: 1.4rem;
+		font-weight: 800;
+		flex-shrink: 0;
+		box-shadow: var(--shadow-sm);
+	}
+
+	.author-info {
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+
+	.author-badge {
+		font-size: 0.75rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.8px;
+		color: var(--accent-hover);
+	}
+
+	.author-name {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		margin: 0;
+	}
+
+	.author-bio {
+		font-size: 0.95rem;
+		color: var(--text-secondary);
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	.author-link {
+		margin-top: 0.5rem;
+		font-size: 0.88rem;
+		font-weight: 600;
+		color: var(--accent);
+		text-decoration: none;
+		align-self: flex-start;
+		transition: var(--transition);
+	}
+
+	.author-link:hover {
+		color: var(--accent-coral);
+		text-decoration: underline;
+	}
+
+	/* Share buttons */
 	.post-share {
-		margin-top: 4rem;
+		margin-top: 3rem;
 		padding-top: 2rem;
 		border-top: 1px solid var(--border-color);
 		display: flex;
@@ -322,12 +467,13 @@ const formatDate = (dateStr: string | Date) => {
 		font-size: 0.9rem;
 		font-weight: 600;
 		padding: 0.5rem 1rem;
-		border-radius: 6px;
+		border-radius: 8px;
 		color: #FFFFFF;
 		transition: var(--transition);
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		text-decoration: none;
 	}
 
 	.share-btn.whatsapp { background-color: #25D366; }
@@ -342,12 +488,131 @@ const formatDate = (dateStr: string | Date) => {
 	.share-btn.telegram { background-color: #0088CC; }
 	.share-btn.telegram:hover { background-color: #0077B5; }
 
+	/* Related Articles Section */
+	.related-section {
+		margin-top: 4rem;
+		padding-top: 3rem;
+		border-top: 1px solid var(--border-color);
+	}
+
+	.related-title {
+		font-size: 1.6rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		margin-bottom: 1.75rem;
+		letter-spacing: -0.5px;
+	}
+
+	.related-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+	}
+
+	.related-card {
+		background-color: var(--card-bg);
+		border: 1px solid var(--border-color);
+		border-radius: 12px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		color: inherit;
+		box-shadow: var(--shadow-sm);
+		transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+	}
+
+	.related-card:hover {
+		transform: translateY(-4px);
+		box-shadow: var(--shadow-md);
+		border-color: var(--accent);
+	}
+
+	.related-img-box {
+		width: 100%;
+		height: 150px;
+		overflow: hidden;
+		background-color: var(--accent-light);
+	}
+
+	.related-img-box img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 0.3s ease;
+	}
+
+	.related-card:hover .related-img-box img {
+		transform: scale(1.05);
+	}
+
+	.related-body {
+		padding: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+
+	.related-date {
+		font-size: 0.78rem;
+		color: var(--text-secondary);
+		margin-bottom: 0.4rem;
+	}
+
+	.related-heading {
+		font-size: 1.05rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		line-height: 1.35;
+		margin-bottom: 0.5rem;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.related-desc {
+		font-size: 0.85rem;
+		color: var(--text-secondary);
+		line-height: 1.5;
+		margin-bottom: 1rem;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.related-read-more {
+		margin-top: auto;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--accent);
+		transition: var(--transition);
+	}
+
+	.related-card:hover .related-read-more {
+		color: var(--accent-coral);
+	}
+
 	@media (max-width: 768px) {
 		.post-title {
-			font-size: 2.25rem;
+			font-size: 2.1rem;
 		}
 		.post-content {
 			font-size: 1.05rem;
+		}
+		.author-box {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			padding: 1.5rem;
+		}
+		.author-link {
+			align-self: center;
+		}
+		.related-grid {
+			grid-template-columns: 1fr;
+			gap: 1.25rem;
 		}
 	}
 </style>

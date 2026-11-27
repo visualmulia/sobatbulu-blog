@@ -23,7 +23,7 @@ Memahami akar masalah ini adalah kunci. Alih-alih memarahi kucing, fokuslah pada
 
 ### 2. Gunakan Pengalih Perhatian (Redirected Behavior)
 
-**Saat kucing mulai mencakar sofa, jangan langsung memarahinya. Alihkan perhatiannya ke scratching post dengan lembut dan berikan pujian atau camilan saat ia menggunakannya.** Metode ini disebut penguatan positif. Setiap kali kucing mendekati scratching post dan mencakarnya, berikan reward. Sebaliknya, jika ia mencakar sofa, katakan "tidak" dengan tegas namun tanpa kekerasan, lalu bawa ke scratching post. Konsistensi adalah kunci.
+**Saat kucing mulai mencakar sofa, jangan langsung memarahinya. Alihkan perhatiannya ke scratching post dengan lembut dan berikan pujian atau camilan saat ia menggunakannya.** Metode ini disebut penguatan positif (*positive reinforcement*). Prinsip edukasi dengan hadiah ini tidak hanya berlaku bagi anabul, melainkan juga kunci sukses dalam [panduan melatih anjing buang air teratur](/blog/panduan-melatih-anjing-peliharaan-agar-buang-air-teratur). Setiap kali kucing mendekati scratching post dan mencakarnya, berikan reward. Sebaliknya, jika ia mencakar sofa, katakan "tidak" dengan tegas namun tanpa kekerasan, lalu bawa ke scratching post. Konsistensi adalah kunci.
 
 ### 3. Lindungi Sofa dengan Pelindung Sementara
 
@@ -59,5 +59,7 @@ Memahami akar masalah ini adalah kunci. Alih-alih memarahi kucing, fokuslah pada
 ## Kesimpulan
 
 Melatih kucing agar tidak mencakar sofa dan furniture adalah proses yang membutuhkan pemahaman, kesabaran, dan konsistensi. Dengan menyediakan scratching post yang menarik, mengalihkan perilaku, dan menciptakan lingkungan yang kaya stimulasi, Anda dapat melindungi furniture kesayangan sekaligus menjaga kesejahteraan kucing. Ingatlah bahwa kucing tidak melakukannya untuk membalas dendam, melainkan mengikuti naluri alami. Pendekatan positif adalah kunci keberhasilan jangka panjang.
+
+- **Konsisten menjaga stamina anabul:** Lengkapi rutinitas hariannya dengan [rekomendasi vitamin kucing terbaik agar gemuk rimbun](/blog/rekomendasi-vitamin-kucing-terbaik-agar-gemuk-rimbun) agar tubuhnya tetap sehat dan aktif secara positif.
 
 Jika Anda memiliki pertanyaan atau pengalaman menarik seputar melatih kucing, bagikan di kolom komentar! Jangan lupa untuk selalu memberikan yang terbaik untuk sobat bulu di rumah.

@@ -16,7 +16,7 @@ Memilih anjing peliharaan untuk keluarga bukan sekadar soal penampilan atau popu
 Sebelum memilih ras, pertimbangkan faktor-faktor berikut agar anjing yang dipilih benar-benar cocok dengan keluarga Anda.
 
 ### 1. Ukuran dan Ruang Gerak
-Anjing berukuran besar seperti Golden Retriever atau Labrador membutuhkan ruang gerak lebih luas, idealnya memiliki halaman atau akses ke taman. Sementara ras kecil seperti Shih Tzu atau Poodle mini lebih cocok untuk hunian sempit seperti apartemen, asalkan tetap diajak jalan-jalan rutin.
+Anjing berukuran besar seperti Golden Retriever atau Labrador membutuhkan ruang gerak lebih luas, idealnya memiliki halaman atau akses ke taman. Sementara ras kecil seperti Shih Tzu atau Poodle mini lebih cocok untuk hunian sempit seperti apartemen, asalkan tetap diajak jalan-jalan rutin. Jika Anda membutuhkan alternatif hewan peliharaan berbulu yang tenang dan tidak membutuhkan area luas, simak juga [cara merawat kelinci peliharaan agar tidak mudah stres](/blog/cara-merawat-kelinci-peliharaan-agar-tidak-mudah-stres).
 
 ### 2. Tingkat Energi dan Aktivitas
 Keluarga dengan anak kecil biasanya lebih cocok dengan anjing yang energinya sedang hingga tinggi karena bisa diajak bermain. Namun, jika keluarga Anda lebih banyak menghabiskan waktu di dalam rumah, pilih ras dengan energi rendah seperti Bulldog Inggris atau Cavalier King Charles Spaniel.
@@ -70,7 +70,7 @@ Setelah mempertimbangkan faktor dan rekomendasi ras, ikuti tips berikut untuk me
 - **Libatkan seluruh anggota keluarga:** Ajak semua anggota keluarga, termasuk anak-anak, untuk bertemu calon anjing agar terjadi kecocokan.
 - **Kenali asal-usul anjing:** Pilih breeder terpercaya atau adopsi dari shelter yang dapat memberikan informasi tentang temperamen dan kesehatan anjing.
 - **Sesuaikan dengan anggaran:** Perhitungkan biaya makanan, perawatan kesehatan, dan perlengkapan lainnya.
-- **Pertimbangkan waktu untuk melatih:** Anjing ramah keluarga tetap memerlukan pelatihan dasar dan sosialisasi sejak dini.
+- **Pertimbangkan waktu untuk melatih:** Anjing ramah keluarga tetap memerlukan pelatihan dasar dan sosialisasi sejak dini, terutama latihan toilet yang bisa Anda ikuti di [panduan melatih anjing peliharaan agar buang air teratur](/blog/panduan-melatih-anjing-peliharaan-agar-buang-air-teratur).
 - **Konsultasikan dengan dokter hewan:** Dapatkan saran tentang ras yang sesuai dengan kondisi kesehatan keluarga, misalnya alergi.
 
 ## Kesimpulan

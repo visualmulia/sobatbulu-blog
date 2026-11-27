@@ -29,6 +29,7 @@ Anak kucing tidak bisa menggigil untuk menghasilkan panas. Suhu tubuh ideal mere
 - Letakkan **botol berisi air hangat** yang dibungkus kain di sampingnya (jangan langsung menyentuh kulit).
 - Atau gunakan **lampu pemanas (heat lamp)** atau **heating pad** khusus hewan dengan suhu rendah.
 - Pastikan ada area yang lebih sejuk agar kucing bisa menjauh jika kepanasan.
+- Untuk panduan tahapan usia hari demi hari, simak juga [cara merawat anak kucing baru lahir usia 0-8 minggu](/blog/cara-merawat-anak-kucing-baru-lahir).
 
 > **Tips:** Suhu ruangan ideal untuk anak kucing adalah 29-32°C pada minggu pertama, lalu diturunkan secara bertahap.
 
@@ -92,7 +93,7 @@ Meskipun tanpa induk, anak kucing tetap perlu belajar bersosialisasi. Mulai usia
 
 ### 7. Vaksinasi dan Pemeriksaan Dokter
 
-Bawa anak kucing ke dokter hewan untuk pemeriksaan umum dan jadwal vaksinasi. Vaksin pertama biasanya diberikan pada usia 6-8 minggu. Dokter juga akan memberikan obat cacing dan vitamin jika diperlukan.
+Bawa anak kucing ke dokter hewan untuk pemeriksaan umum dan jadwal vaksinasi. Vaksin pertama biasanya diberikan pada usia 6-8 minggu. Dokter juga akan memberikan obat cacing dan vitamin jika diperlukan. Kenali tanda bahaya parasit sejak dini melalui panduan [gejala dan ciri kucing cacingan parah](/blog/gejala-dan-ciri-kucing-sedang-sakit-cacingan-parah).
 
 ## Tabel Perbandingan: Susu Formula Kucing vs Susu Lain
 

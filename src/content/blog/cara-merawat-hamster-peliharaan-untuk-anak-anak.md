@@ -17,7 +17,7 @@ Memelihara hamster bisa menjadi pengalaman yang menyenangkan dan mendidik bagi a
 
 **Jawaban singkat:** Pilihlah hamster yang jinak dan mudah beradaptasi, seperti hamster Syria atau hamster kerdil (dwarf). Hindari hamster yang agresif atau mudah stres.
 
-Sebelum memutuskan untuk memelihara hamster, penting untuk memilih jenis yang cocok untuk anak-anak. Hamster Syria dikenal lebih besar dan jinak, sehingga mudah dipegang. Sementara hamster kerdil lebih kecil dan lincah, cocok untuk anak yang lebih besar. Pastikan Anda membeli hamster dari peternak atau toko hewan yang terpercaya dan sehat.
+Sebelum memutuskan untuk memelihara hamster, penting untuk memilih jenis yang cocok untuk anak-anak. Hamster Syria dikenal lebih besar dan jinak, sehingga mudah dipegang. Sementara hamster kerdil lebih kecil dan lincah, cocok untuk anak yang lebih besar. Pastikan Anda membeli hamster dari peternak atau toko hewan yang terpercaya dan sehat. Namun bila keluarga Anda lebih menginginkan anjing yang setia dan aktif, pertimbangkan [panduan memilih jenis anjing peliharaan ramah keluarga](/blog/panduan-memilih-jenis-anjing-peliharaan-ramah-keluarga).
 
 ### Perbandingan Jenis Hamster untuk Anak-Anak
 
@@ -31,7 +31,7 @@ Sebelum memutuskan untuk memelihara hamster, penting untuk memilih jenis yang co
 
 **Jawaban singkat:** Kandang hamster harus luas (minimal 60x40 cm), memiliki ventilasi baik, dan dilengkapi tempat makan, minum, serta mainan.
 
-Kandang adalah rumah bagi hamster. Untuk anak-anak, pilihlah kandang dengan pintu yang mudah dibuka dan tutup, sehingga anak dapat membantu membersihkan tanpa risiko hamster kabur. Letakkan kandang di tempat yang tenang, jauh dari sinar matahari langsung dan kebisingan. Hamster adalah hewan nokturnal, jadi mereka aktif di malam hari. Pastikan kandang memiliki alas yang lembut seperti serbuk kayu atau kertas daur ulang.
+Kandang adalah rumah bagi hamster. Untuk anak-anak, pilihlah kandang dengan pintu yang mudah dibuka dan tutup, sehingga anak dapat membantu membersihkan tanpa risiko hamster kabur. Letakkan kandang di tempat yang tenang, jauh dari sinar matahari langsung dan kebisingan. Hamster adalah hewan nokturnal, jadi mereka aktif di malam hari. Pastikan kandang memiliki alas yang lembut seperti serbuk kayu atau kertas daur ulang. Sebagai variasi satwa lucu lainnya, Anda juga bisa membaca panduan [cara merawat kelinci peliharaan agar tidak mudah stres](/blog/cara-merawat-kelinci-peliharaan-agar-tidak-mudah-stres).
 
 ### Perlengkapan Kandang yang Wajib Ada
 

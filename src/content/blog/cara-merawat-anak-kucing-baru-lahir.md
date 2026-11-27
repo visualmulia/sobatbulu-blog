@@ -11,7 +11,7 @@ tags:
   - merawat kitten
 ---
 
-Merawat anak kucing baru lahir membutuhkan perhatian ekstra karena mereka sangat rentan. Kunci utama adalah menjaga kehangatan, memberikan nutrisi yang tepat, dan memastikan kebersihan. Jika induk kucing ada, biarkan ia merawat anaknya secara alami. Namun, jika anak kucing yatim atau ditolak induknya, Anda harus menjadi pengganti induk. Berikut panduan lengkap dari usia 0 hingga 8 minggu.
+Merawat anak kucing baru lahir membutuhkan perhatian ekstra karena mereka sangat rentan. Kunci utama adalah menjaga kehangatan, memberikan nutrisi yang tepat, dan memastikan kebersihan. Jika induk kucing ada, biarkan ia merawat anaknya secara alami. Namun, jika anak kucing yatim atau ditolak induknya, Anda harus menjadi pengganti induk dengan mengikuti [panduan merawat anak kucing tanpa induk agar sehat dan kuat](/blog/cara-merawat-anak-kucing-kittens-tanpa-induk-agar-sehat). Berikut panduan lengkap dari usia 0 hingga 8 minggu.
 
 ## Menjaga Kehangatan Anak Kucing
 
@@ -77,7 +77,7 @@ Segera bawa ke dokter jika:
 
 ## Transisi ke Makanan Padat
 
-Pada usia 4-5 minggu, mulailah memperkenalkan makanan padat. Campurkan makanan basah khusus kitten dengan susu formula hingga menjadi bubur. Letakkan di piring dangkal. Biarkan anak kucing menjilati. Secara bertahap kurangi susu dan tingkatkan makanan padat hingga usia 8 minggu mereka sudah bisa makan makanan kering yang dilembabkan.
+Pada usia 4-5 minggu, mulailah memperkenalkan makanan padat. Campurkan makanan basah khusus kitten dengan susu formula hingga menjadi bubur. Letakkan di piring dangkal. Biarkan anak kucing menjilati. Secara bertahap kurangi susu dan tingkatkan makanan padat hingga usia 8 minggu mereka sudah bisa makan makanan kering yang dilembabkan. Anda bisa memilih varian dari [rekomendasi makanan kucing murah berkualitas tinggi](/blog/rekomendasi-makanan-kucing-murah-berkualitas-tinggi) khusus kitten yang kaya protein.
 
 ## Kesimpulan
 

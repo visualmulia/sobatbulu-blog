@@ -16,7 +16,7 @@ Melatih anjing peliharaan agar buang air teratur adalah salah satu aspek terpent
 
 ## Mengapa Jadwal Buang Air Teratur Penting?
 
-Anjing yang buang air teratur tidak hanya menjaga kebersihan rumah, tetapi juga mencerminkan kesehatan fisik dan mentalnya. Buang air yang tidak teratur bisa menjadi tanda masalah kesehatan seperti infeksi saluran kemih atau gangguan pencernaan. Selain itu, rutinitas yang konsisten membantu anjing merasa aman dan mengurangi stres, karena mereka tahu kapan waktunya untuk buang air.
+Anjing yang buang air teratur tidak hanya menjaga kebersihan rumah, tetapi juga mencerminkan kesehatan fisik dan mentalnya. Buang air yang tidak teratur bisa menjadi tanda masalah kesehatan seperti infeksi saluran kemih atau gangguan pencernaan. Tingkat kemudahan melatih anjing juga dipengaruhi oleh kecerdasan ras yang Anda pelihara, seperti yang diulas dalam [panduan memilih jenis anjing peliharaan ramah keluarga](/blog/panduan-memilih-jenis-anjing-peliharaan-ramah-keluarga). Selain itu, rutinitas yang konsisten membantu anjing merasa aman dan mengurangi stres, karena mereka tahu kapan waktunya untuk buang air.
 
 ## Tanda-Tanda Anjing Ingin Buang Air
 
@@ -42,7 +42,7 @@ Untuk anak anjing, bawa mereka keluar setiap 1-2 jam sekali, termasuk setelah ba
 
 ### 3. Gunakan Metode Positive Reinforcement
 
-Beri pujian dan hadiah (seperti camilan atau mainan) setiap kali anjing berhasil buang air di tempat yang benar. Ini akan memperkuat perilaku positif. Hindari hukuman fisik atau memarahi setelah kecelakaan, karena hal ini dapat membuat anjing takut dan justru memperlambat proses pelatihan.
+Beri pujian dan hadiah (seperti camilan atau mainan) setiap kali anjing berhasil buang air di tempat yang benar. Ini akan memperkuat perilaku positif. Pola penguatan positif ini juga terbukti ampuh pada anabul lainnya sebagaimana dijelaskan pada panduan [tips melatih kucing agar tidak mencakar furniture](/blog/tips-melatih-kucing-agar-tidak-mencakar-sofa-furniture). Hindari hukuman fisik atau memarahi setelah kecelakaan, karena hal ini dapat membuat anjing takut dan justru memperlambat proses pelatihan.
 
 ### 4. Crate Training (Pelatihan Kandang)
 

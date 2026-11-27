@@ -88,7 +88,7 @@ Dokter hewan akan melakukan pemeriksaan fisik, uji feses (flotasi dan smear), se
 Pengobatan harus disesuaikan dengan jenis cacing dan kondisi kucing. Umumnya dokter hewan akan memberikan:
 
 - **Obat cacing oral** (pyrantel, praziquantel, fenbendazole, atau ivermectin) sesuai dosis berat badan.
-- **Terapi suportif** seperti cairan infus untuk dehidrasi, suplemen zat besi untuk anemia, dan vitamin penambah nafsu makan.
+- **Terapi suportif** seperti cairan infus untuk dehidrasi, suplemen zat besi untuk anemia, dan [vitamin kucing terbaik agar gemuk rimbun](/blog/rekomendasi-vitamin-kucing-terbaik-agar-gemuk-rimbun) guna memulihkan nafsu makan dan berat badan yang hilang.
 - **Rawatan khusus** jika terjadi komplikasi seperti obstruksi usus atau cacing jantung (memerlukan pengobatan jangka panjang).
 
 **Penting:** Jangan memberikan obat cacing manusia tanpa resep dokter hewan karena dosis dan jenisnya berbeda.
@@ -97,7 +97,7 @@ Pengobatan harus disesuaikan dengan jenis cacing dan kondisi kucing. Umumnya dok
 
 - **Beri obat cacing rutin** setiap 3 bulan (atau sesuai anjuran dokter hewan).
 - **Jaga kebersihan lingkungan**, terutama tempat makan, minum, dan litter box.
-- **Kontrol kutu dan pinjal** dengan produk antiparasit yang aman.
+- **Kontrol kutu dan pinjal** dengan [cara mengatasi kutu kucing membandel dengan bahan alami](/blog/cara-mengatasi-kutu-kucing-membandel-dengan-bahan-alami) agar larva cacing tidak kembali masuk ke tubuh anabul.
 - **Batasi akses ke luar rumah** atau awasi saat bermain di tanah.
 - **Cuci tangan setelah menangani kucing** dan bersihkan feses segera.
 - **Berikan makanan matang** dan air minum bersih.
